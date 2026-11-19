@@ -2,7 +2,7 @@
 import axios from "axios";
 
 const api = axios.create({
-    baseURL: import.meta.env.example.VITE_API_URL,
+    baseURL: "https://connectly-4w9i.onrender.com/api",
     headers: {
         "Content-Type": "application/json"
     }
